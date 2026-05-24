@@ -31,7 +31,7 @@ new VaultwardenClient(options: VaultClientOptions)
 | Property | Type | Required | Default | Description |
 |----------|------|----------|---------|-------------|
 | `baseUrl` | `string` | ✅ | - | Server URL (e.g., `https://vault.example.com`) |
-| `deviceName` | `string` | ❌ | `'vaultwarden-client'` | Device identifier |
+| `deviceName` | `string` | ❌ | `'vaultwarden.js'` | Device identifier |
 | `deviceType` | `number` | ❌ | `8` | Device type constant |
 | `timeout` | `number` | ❌ | `30000` | Request timeout (ms) |
 | `maxRetries` | `number` | ❌ | `3` | Max retry attempts |

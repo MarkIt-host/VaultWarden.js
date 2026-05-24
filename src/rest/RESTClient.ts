@@ -96,7 +96,7 @@ export class RESTClient {
     this.client = client;
     this.baseUrl = options.baseUrl.replace(/\/$/, '');
     this.deviceType = options.deviceType ?? 8;
-    this.deviceName = options.deviceName ?? 'vaultwarden-client';
+    this.deviceName = options.deviceName ?? 'vaultwarden.js';
     this.timeout = options.timeout ?? 30000;
     this.maxRetries = options.retries ?? 3;
     this.debug = options.debug ?? false;
@@ -324,7 +324,7 @@ export class RESTClient {
       const params = new URLSearchParams();
       params.append('grant_type', 'refresh_token');
       params.append('refresh_token', this.refreshToken);
-      params.append('client_id', `${this.deviceType}.vaultwarden-client`);
+      params.append('client_id', `${this.deviceType}.vaultwarden.js`);
 
       const response = await this.rawRequest(
         'POST',

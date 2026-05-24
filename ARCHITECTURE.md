@@ -392,7 +392,7 @@ import {
   type CipherResolvable,
   CipherType,
   OrganizationUserType,
-} from 'vaultwarden-client';
+} from 'vaultwarden.js';
 ```
 
 ## Performance Considerations

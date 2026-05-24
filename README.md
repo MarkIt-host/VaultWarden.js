@@ -2,9 +2,9 @@
 
 A modern, type-safe, object-oriented TypeScript SDK for Vaultwarden/Bitwarden servers. Inspired by [discord.js](https://discord.js.org/) with a focus on developer experience and comprehensive type safety.
 
-[![npm version](https://img.shields.io/npm/v/vaultwarden-client.svg)](https://www.npmjs.com/package/vaultwarden-client)
+[![npm version](https://img.shields.io/npm/v/vaultwarden.js.svg)](https://www.npmjs.com/package/vaultwarden.js)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3%2B-blue.svg)](https://www.typescriptlang.org/)
-[![License](https://img.shields.io/npm/l/vaultwarden-client.svg)](LICENSE)
+[![License](https://img.shields.io/npm/l/vaultwarden.js.svg)](LICENSE)
 
 ## Features
 
@@ -19,13 +19,13 @@ A modern, type-safe, object-oriented TypeScript SDK for Vaultwarden/Bitwarden se
 ## Installation
 
 ```bash
-npm install vaultwarden-client
+npm install vaultwarden.
 ```
 
 ## Quick Start
 
 ```typescript
-import { VaultwardenClient } from 'vaultwarden-client';
+import { VaultwardenClient } from 'vaultwarden.js';
 
 const client = new VaultwardenClient({
   baseUrl: 'https://vault.example.com',
@@ -257,9 +257,9 @@ const trash = client.ciphers.trash;
 ```
 
 ## Password Generation
-
+git remote add origin https://github.com/MarkIt-host/VaultWarden.js.git
 ```typescript
-import { generatePassword, generatePassphrase } from 'vaultwarden-client';
+import { generatePassword, generatePassphrase } from 'vaultwarden.js';
 
 // Generate strong password
 const { password, entropy } = generatePassword({
@@ -337,7 +337,7 @@ import {
   AuthenticationError,
   NotFoundError,
   RateLimitError,
-} from 'vaultwarden-client';
+} from 'vaultwarden.js';
 
 try {
   await client.login({ username, password });
@@ -375,7 +375,7 @@ const client = new VaultwardenClient({
   baseUrl: 'https://vault.example.com',
 
   // Optional
-  deviceName: 'MyApp',      // Default: 'vaultwarden-client'
+  deviceName: 'MyApp',      // Default: 'vaultwarden.js'
   deviceType: 8,              // Default: 8 (Windows Desktop)
   timeout: 30000,             // Request timeout in ms
   maxRetries: 3,              // Max retry attempts

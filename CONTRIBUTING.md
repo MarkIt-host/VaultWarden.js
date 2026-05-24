@@ -14,8 +14,8 @@ Thank you for your interest in contributing! This document provides guidelines f
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vaultwarden-client.git
-cd vaultwarden-client
+git clone https://github.com/yourusername/vaultwarden.js.git
+cd vaultwarden.js
 
 # Install dependencies
 npm install
@@ -179,7 +179,7 @@ Instead, email security concerns to: security@example.com
 
 - Check the [API Documentation](./docs/API.md)
 - Review [examples/](./examples/)
-- Open a [Discussion](https://github.com/yourusername/vaultwarden-client/discussions)
+- Open a [Discussion](https://github.com/yourusername/vaultwarden.js/discussions)
 
 ## License
 

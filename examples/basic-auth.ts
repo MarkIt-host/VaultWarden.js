@@ -4,7 +4,7 @@
  * Demonstrates login, logout, and session management
  */
 
-import { VaultwardenClient, AuthenticationError } from 'vaultwarden-client';
+import { VaultwardenClient, AuthenticationError } from 'vaultwarden.js';
 
 async function main() {
   // Create client

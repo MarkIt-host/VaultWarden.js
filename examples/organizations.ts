@@ -4,7 +4,7 @@
  * Demonstrates working with shared vaults
  */
 
-import { VaultwardenClient, OrganizationUserType } from 'vaultwarden-client';
+import { VaultwardenClient, OrganizationUserType } from 'vaultwarden.js';
 
 async function main() {
   const client = new VaultwardenClient({

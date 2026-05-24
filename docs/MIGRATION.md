@@ -18,7 +18,7 @@ Version 3.0 is a complete rewrite with a new object-oriented architecture inspir
 
 **Before (2.x):**
 ```typescript
-import { BitwardenClient } from 'vaultwarden-client';
+import { BitwardenClient } from 'vaultwarden.js';
 
 const client = new BitwardenClient('https://vault.example.com');
 await client.authenticate('user@example.com', 'password');
@@ -26,7 +26,7 @@ await client.authenticate('user@example.com', 'password');
 
 **After (3.0):**
 ```typescript
-import { VaultwardenClient } from 'vaultwarden-client';
+import { VaultwardenClient } from 'vaultwarden.js';
 
 const client = new VaultwardenClient({
   baseUrl: 'https://vault.example.com',
@@ -202,7 +202,7 @@ const random = client.ciphers.cache.random();
 ### Password Generation
 
 ```typescript
-import { generatePassword, generatePassphrase } from 'vaultwarden-client';
+import { generatePassword, generatePassphrase } from 'vaultwarden.js';
 
 const { password } = generatePassword({ length: 20 });
 const { passphrase } = generatePassphrase({ numWords: 5 });

@@ -77,7 +77,7 @@ export class VaultwardenClient extends EventEmitter<ClientEvents> {
     // Set defaults
     this.options = {
       deviceType: 8, // Android
-      deviceName: 'vaultwarden-client',
+      deviceName: 'vaultwarden.js',
       timeout: 30000,
       retries: 3,
       debug: false,

@@ -6,7 +6,7 @@
  *
  * @example
  * ```typescript
- * import { VaultwardenClient } from 'vaultwarden-client';
+ * import { VaultwardenClient } from 'vaultwarden.js';
  *
  * const client = new VaultwardenClient({
  *   baseUrl: 'https://vault.example.com',
@@ -39,7 +39,7 @@
  * ```
  *
  * @packageDocumentation
- * @module vaultwarden-client
+ * @module vaultwarden.js
  */
 
 // Client

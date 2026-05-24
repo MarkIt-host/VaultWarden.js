@@ -4,7 +4,7 @@
  * Demonstrates creating, reading, updating, and deleting ciphers
  */
 
-import { VaultwardenClient } from 'vaultwarden-client';
+import { VaultwardenClient } from 'vaultwarden.js';
 
 async function main() {
   const client = new VaultwardenClient({
