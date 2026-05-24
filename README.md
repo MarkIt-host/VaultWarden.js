@@ -446,10 +446,6 @@ See [examples/](./examples/) directory for usage examples:
 - [Organizations](./examples/organizations.ts)
 - [Password Generator](./examples/password-generator.ts)
 
-## Migration from 2.x
-
-See [MIGRATION.md](./docs/MIGRATION.md) for migration guide.
-
 ## License
 
 MIT © [Marki](https://marki.dev)
