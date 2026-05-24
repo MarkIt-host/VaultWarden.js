@@ -19,7 +19,7 @@ A modern, type-safe, object-oriented TypeScript SDK for Vaultwarden/Bitwarden se
 ## Installation
 
 ```bash
-npm install vaultwarden.
+npm install vaultwarden.js
 ```
 
 ## Quick Start
